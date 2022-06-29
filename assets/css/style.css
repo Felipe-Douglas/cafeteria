@@ -1,0 +1,172 @@
+/* Importando a fonte */
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@400;500;700&display=swap');
+
+/* Resetando css do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* titulo */
+
+.titulo {
+    font-size: 3rem;
+    font-family: 'Merienda One', cursive;
+}
+
+/* cabecalho */
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    flex-wrap: wrap;
+}
+
+.cabecalho__logo {
+    width: 80px;
+    height: 80px;
+}
+
+/* Menu */
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu__link {
+    margin: 4px;
+    padding: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Conteudo */
+
+.container {
+    background: #F8EBDA;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+}
+
+.container__apresentacao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 800px;
+    padding: 4px;
+}
+
+/* Cartão */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card__image {
+    width: 160px;
+    height: 180px;
+}
+
+.card__descricao {
+    font-weight: 700;
+}
+
+/* Sobre */
+
+.container__sobre {
+    padding: 2rem;
+}
+
+.container__sobre__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 0;
+}
+
+.sobre__card__image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card__titulo {
+    font-size: 3rem;
+}
+
+.card__texto {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Contato */
+
+.container__contato {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 4px;
+}
+
+#Mensagem {
+    resize: none;
+}
+
+.btn-contato {
+    max-width: 200px;
+    width: 100px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 4px;
+}
+
+input, textarea {
+    outline: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+input {
+    height: 30px;
+}
+
+/* Rodape */
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    margin: 2px 0;
+    padding: 4px;
+}
